@@ -1,0 +1,61 @@
+[
+    {
+        "id": "1",
+        "access_type": "siege",
+        "email": "enzobertrand@gaming.tech",
+        "password": 12345,
+        "image_link":"../img/hutao.jpg",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "2",
+        "access_type": "siege",
+        "email": "ederveaux@gaming.tech",
+        "password": 12345,
+        "image_link":"../img/hutao2.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "3",
+        "access_type": "siege",
+        "email": "frichard@gaming.tech",
+        "password": 12345,
+        "image_link":"https://cdn.mos.cms.futurecdn.net/2aipAM72aBPS7Ny4L2MeNn-1200-80.jpg",
+        "shop_call_link" : "../img/rizz.jpg"
+    
+    },
+    {
+        "id": "4",
+        "access_type": "siege",
+        "email": "lfiard@gaming.tech",
+        "password": 12345,
+        "image_link":"../img/wokeup.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "5",
+        "access_type": "siege",
+        "email": "mchamps@gaming.tech",
+        "password": 12345,
+        "image_link":"../img/KIRYUKAZUMA.png",
+        "shop_call_link" : " "
+    
+    },
+    {
+        "id": "6",
+        "access_type": "siege",
+        "email": "siege",
+        "password": 12345,
+        "image_link":"../img/wokeup.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "7",
+        "access_type": "magasin",
+        "email": "magasin",
+        "password": 12345,
+        "image_link":"../img/KIRYUKAZUMA.png",
+        "shop_call_link" : " "
+    
+    }
+]

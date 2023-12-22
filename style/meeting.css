@@ -1,0 +1,69 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  /*Hide scrollbars */
+  }
+  
+  .callroom {
+    display: flex;
+    height: 99vh;
+  }
+  
+  .canvas-container {
+    height: 99vh;
+    width: 50%;
+  }
+  
+  .call{
+    width: 50%;
+  }
+  
+  #jaas-container {
+    height: 99vh;
+  }
+/* Labels */
+
+.SDK3DVerse-viewport-container {
+    top: 1rem !important;
+    border: transparent !important;
+    left: 1rem !important;
+    height: calc(100vh - 4rem) !important;
+    width: 100% !important;
+    vertical-align: middle !important;
+    
+}
+
+.SDK3DVerse-viewport{
+    border: 0 !important;
+    height: 100% !important;
+}
+
+.label-container{
+    z-index: 10 !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 10px black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-container.active.label,
+.label-container .label:hover,
+.label—container .label:focus {
+    cursor : pointer;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gold;
+}

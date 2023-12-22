@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/login.css">
+  <title>Connexion - RetailCoop</title>
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <h2>Connexion</h2>
+    </div>
+    <div class="login-form">
+      <form method="post" id="loginForm">
+        <div class="input-group">
+          <label for="login">Login</label>
+          <input type="text" id="login" name="login" placeholder="Mon login">
+        </div>
+        <div class="input-group">
+          <label for="language">Version</label>
+          <select id="language" name="language">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <!-- Ajouter plus de langues au besoin -->
+          </select>
+        </div>
+        <div class="form-footer">
+          <button type="button" id="cancelButton">Annuler</button>
+          <button type="submit" id="submitButton">Oui</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Empêcher le rechargement de la page
+
+        // Récupérer les valeurs des champs du formulaire
+        var loginValue = document.getElementById('login').value;
+        var languageValue = document.getElementById('language').value;
+
+        console.log('Login:', loginValue);
+        console.log('Language:', languageValue);
+
+        fetch('../login.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+            function appendData(data) {
+              var mainContainer = document.getElementById("login");
+              for (var i = 0; i < data.length; i++) {
+                if (data[i].email === loginValue) {
+                  sessionStorage.setItem('loginValue', loginValue);
+                  console.log('Login:', loginValue);
+                  window.location.href = 'password.html';
+                }
+              }
+            }
+
+
+    });
+</script>
+  
+</body>
+</html>

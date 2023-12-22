@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "category": "Free",
+        "typology": "PETIT",
+        "name": "Magasin",
+        "adress": "Ajaccio",
+        "shop_link": "/pages/ajaccio.html",
+        "shop_image_link":"/img/plan.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "2",
+        "category": "Free",
+        "typology": "MOYEN",
+        "name": "Concept store",
+        "adress": "Free",
+        "shop_link": "/pages/free.html",
+        "shop_image_link":"/img/plan.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "3",
+        "category": "Franchise",
+        "typology": "PETIT",
+        "name": "Magasin",
+        "adress": "Bordeaux",
+        "shop_link": "https://www.google.com/",
+        "shop_image_link":"/img/plan.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "4",
+        "category": "Franchise",
+        "typology": "MOYEN",
+        "name": "Magasin",
+        "adress": "Samer",
+        "shop_link": "https://www.google.com/",
+        "shop_image_link":"../img/plan.png",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "5",
+        "category": "ConceptStore",
+        "typology": "MOYEN",
+        "name": "Magasin",
+        "adress": "Kamurocho",
+        "shop_link": "",
+        "shop_image_link":"../img/plan.jpg",
+        "shop_call_link" : ""
+    
+    },
+    {
+        "id": "6",
+        "category": "Franchise",
+        "typology": "PETIT",
+        "name": "Magasin",
+        "adress": "Toulouse",
+        "shop_link": "https://www.google.com/",
+        "shop_image_link":"../img/plan.jpg",
+        "shop_call_link" : " "
+    },
+    {
+        "id": "7",
+        "category": "ConceptStore",
+        "typology": "GRAND",
+        "name": "Magasin",
+        "adress": "La Force",
+        "shop_link": "https://www.google.com/",
+        "shop_image_link":"../img/plan.png",
+        "shop_call_link" : " "
+    
+    }
+]

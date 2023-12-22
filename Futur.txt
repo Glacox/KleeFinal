@@ -1,0 +1,4 @@
+Dans le futur :
+
+- Les POST ( filtres + login ) seront mit en place avec le serveur python ou un framework
+- Les scènes de meeting (3DVerse et chat vocal) seront mit en place via le json avec qu'un seul fichier meeting.html et meeting.js

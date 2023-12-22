@@ -1,0 +1,206 @@
+body, html {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #E6EBED;
+}
+
+/* Style Top Bar */
+
+.top-bar {
+background-color: #042653;
+color: #fff;
+padding: 10px;
+display: flex;
+align-items: center;
+position: sticky;
+top: 0px;
+}
+
+.top-bar img {
+width: 25px;
+margin-right: 10px;
+}
+
+.page-list {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+margin-right: auto;
+}
+
+.page-list li {
+margin-left: 10px;
+}
+
+.user-info {
+display: flex;
+align-items: center;
+}
+
+.user-icon {
+margin-right: 10px;
+}
+
+/* Style Side Bar */
+
+.wrapper {
+  display: flex;
+  height: auto;
+}
+
+.sidebar {
+  
+  background-color: #6B7491;
+  color: #fff;
+  width: 20px;
+  height: -webkit-fill-available;
+  padding: 10px;
+  padding-right: 15px;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar img {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sidebar img:hover{
+  filter: sepia(1000%) hue-rotate(170deg) saturate(10000%) ;
+  cursor: pointer;
+}
+
+.sidebar a {
+  
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Style supplémentaire pour une meilleure apparence */
+h1 {
+color: #333;
+}
+
+.search-container {
+  background-color: #042653;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 450px; /* Ajustez selon vos besoins */
+  height: auto;
+  box-sizing: border-box; /* Assurez-vous que padding et border sont inclus dans la largeur */
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.search-form label {
+  color: #fff;;
+  margin-bottom: 5px;
+}
+
+.search-form select, .search-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  border: none;
+  margin: auto;
+  width: 50%;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #5AC0CC;
+  color: white;
+}
+
+.search-form button:hover {
+  opacity: 0.8;
+}
+
+.box{
+  height: 1px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: #042653;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.card_smallText {
+  color: #042653;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card_text {
+  color: #042653;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card_image {
+  height: 180px;
+  width: 180px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.card_button {
+  background-color: #00CCFF;
+  size: 100px;
+  padding: 7px 65px;
+  margin-top: 25px;
+  border: 5px;
+  border-radius: 3px;
+  border-color: #97b8c7;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+

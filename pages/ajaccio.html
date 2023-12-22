@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+        <title>3DVerse</title>
+        <link href="../style/meeting.css" rel=stylesheet>
+        <link rel="stylesheet" href="../style/search.css">
+    </head>
+    <body>
+        <!-- Contenu de la sidebar -->
+  <div class="top-bar" id="topBar">
+
+
+    <img class="icon-shop" src="../img/SHOP.png" alt="icon-shop">
+
+    <ul class="page-list" id="pageList">
+      <li>Magasin</li>
+      <li>Recherche d'un magasin</li>
+    </ul>
+
+    <!-- A changer quand Le login fonctionneras -->
+    <div class="user-info">
+      <div class="user-icon">👤</div>
+      <span id="userName">Utilisateur</span>
+    </div>
+
+  </div>
+
+  <nav class="sidebar">
+    <ul>
+      <!-- A ajuster par rapport a la page sur la quel on est -->
+      <li><a href="search.html"> <img id="returnView" class="nav-icon retour" src="../img/Retour.png" alt="icon-retour"></a></li>
+    </ul>
+  </nav>
+
+        <!-- Call -->
+        <div class="callroom">
+    
+          
+          <div class="canvas-container">
+            <canvas
+            id="display-canvas"
+            oncontextmenu="event.preventDefault()"
+            tabindex="1"
+            ></canvas>
+          </div>
+    
+          <div class="call">
+            <div id="jaas-container">
+            </div>
+          </div>
+    
+        </div>
+    
+    
+    
+    
+        <!-- APIs -->
+        <!-- Jitsi --><script src='https://8x8.vc/vpaas-magic-cookie-c054920adebc4d9fa89ad03cf8f5bffc/external_api.js' async></script>
+        <!-- 3DVerse --><script src="https://cdn.3dverse.com/legacy/sdk/latest/SDK3DVerse.js"></script>
+        <script src="https://cdn.3dverse.com/legacy/sdk/stable/SDK3DVerse_LabelDisplay_Ext.js"></script>
+        <script src="https://cdn.3dverse.com/legacy/sdk/stable/SDK3DVerse_ViewportDomOverlay_Ext.js"></script>
+        
+    
+        <!-- APP ENTRYPOINT -->
+        <script type="module" src="ajaccio.js"></script>
+    </body>
+</html>
