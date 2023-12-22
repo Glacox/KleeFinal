@@ -29,7 +29,7 @@ async function InitApp() {
 
     viewport.setGlobalTransform({position: [0,12,0]});
     SDK3DVerse.updateControllerSetting({
-        speed: 4.0, // speed in meters per second
+        speed: 1.0, // speed in meters per second
         sensitivity: 0.3, // "rotation speed"
         damping: 0.65,
         angularDamping: 0.65,

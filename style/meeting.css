@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;  /*Hide scrollbars */
+    
   }
   
   .callroom {
@@ -26,9 +27,8 @@ body {
 /* Labels */
 
 .SDK3DVerse-viewport-container {
-    top: 1rem !important;
+    top: 3rem !important;
     border: transparent !important;
-    left: 1rem !important;
     height: calc(100vh - 4rem) !important;
     width: 100% !important;
     vertical-align: middle !important;
